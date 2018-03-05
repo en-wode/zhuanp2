@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <title>大转盘</title>
+    <link rel="stylesheet" href="zhuanp.css">
+    <script src="http://imgs.plateno.com:8080/static/js/flexible_css.js"></script>
+    <script src="http://imgs.plateno.com:8080/static/js/flexible.js"></script>
+    <script src='http://imgs.plateno.com:8080/static/js/jquery-2.1.1.min.js'></script>
+    <script src="zhuanp.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="wrap">
+        <div class="frame">
+            <div class="circle">
+                <p data-lottery="iPhoneX"><span>iPhoneX</span></p>
+                <p data-lottery="现金红包"><span>现金红包</span></p>
+                <p data-lottery="50阅读券"><span>50阅读券</span></p>
+                <p data-lottery="猜你喜欢"><span>猜你喜欢</span></p>
+                <p data-lottery="100阅读劵"><span>100阅读劵</span></p>
+                <p data-lottery="200阅读劵"><span>200阅读劵</span></p>
+                <p ><span>谢谢参与</span></p>
+                <p data-lottery="50阅读券"><span>50阅读券</span></p>
+            </div>
+            <div class="button">
+                <p></p>
+                <button>抽奖</button>
+            </div>
+        </div>
+        <!--<div class="bubbles">-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+            <!--<span></span>-->
+        <!--</div>-->
+        <!--<mark class="white"></mark>-->
+        <div class="dialog">
+            <p></p>
+            <button>确定</button>
+        </div>
+    </div>
+<!--    <div class="particle">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>-->
+    <!--中奖纪录-->
+    <div class="jl">
+        <p>
+            <span id="zjjl">中奖纪录》</span>|<span id="look-gz">查看规则》</span>
+        </p>
+    </div>
+    <div class="gdbox">
+        <strong>中奖用户</strong>
+        <p id="tit">
+            <span>用户名</span>
+            <span>获得奖励</span>
+        </p>
+        <div class="zhongj-bbk">
+            <div class="zhongj-bb">
+                <ul>
+                    <li><span class="clname">用户1</span><span class="claward">200阅读劵</span></li>
+                    <li><span class="clname">用户2</span><span class="claward">300阅读劵</span></li>
+                </ul>
+                <!--<div class="zhongj-bbl" id="colee" style="overflow:hidden;">
+                    <div id="colee1">用户1</div>
+                    <div id="colee2">用户2</div>
+                </div>
+                <div class="zhongj-bbr" id="coleer" style="overflow:hidden;">
+                    <div id="coleer1" >100阅读劵</div>
+                    <div id="coleer2">200阅读劵</div>
+                </div>-->
+            </div>
+        </div>
+    </div>
+    <!--中奖纪录end-->
+    <!-- 无次数提示弹框 -->
+    <div class="wcs">
+        <img src="img/close.png" class="cjgz-c">
+        <img src="img/wcs-tk.png" class="wcs-img">
+        <img src="img/ok-img.png" class="ok-img">
+    </div>
+
+    <div class="zj">
+        <img src="img/close.png" class="cjgz-c">
+        <img src="img/zjjl-img.png" class="cjgz-img">
+        <div class="zj-content">
+            <p>
+                <span id="mytime">时间</span>
+                <span id="myjl">获得奖励</span>
+            </p>
+            <ul>
+                <li><span>2018.1.31</span><span>200阅读劵</span></li>
+                <li><span>2018.1.31</span><span>50阅读券</span></li>
+                <li><span>2018.1.31</span><span>iPhoneX</span></li>
+                <li><span>2018.1.29</span><span>50阅读券</span></li>
+                <li><span>2018.1.31</span><span>现金红包</span></li>
+                <li><span>2018.1.30</span><span>现金红包</span></li>
+            </ul>
+        </div>
+    </div>
+    <div class="zpgz">
+        <img src="img/close.png" class="cjgz-c">
+        <img src="img/zjgz-img.jpg" class="cjgz-img">
+        <div class="zj-content">
+            <p>
+                参与方式
+            </p>
+            <ul class="rule">
+                <li>*当期抽奖活动期间，每周可进行俩次抽奖。</li>
+                <li> *每期奖品不同</li>
+            </ul>
+        </div>
+    </div>
+    <!-- 无次数提示弹框 -->
+</div>
+
+</body>
+</html>
